@@ -1,0 +1,19 @@
+{
+    "name": "lucas/autoscrum",
+    "description": "Site de Manga/Anime",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lucas\\Aniplex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "framgo",
+            "email": "lucasaraujooks@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
